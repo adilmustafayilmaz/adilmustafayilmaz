@@ -7,7 +7,7 @@ import Spline from '@splinetool/react-spline'
 export default function Home() {
   return (
     <main>
-      <div className='w-[500px] mt-10 flex flex-col justify-center items-center'>
+      <div className='w-[500px] mt-10 flex flex-col justify-center items-center max-md:w-[380px]'>
         {/* <Typewriter
           options={{
             strings: "Adil Mustafa Yılmaz",
@@ -21,7 +21,7 @@ export default function Home() {
             loop: false
           }}/> */}
 
-          <div className='h-full w-full m-4 rounded-full'>
+          <div className='h-[400px] w-full m-4 rounded-full'>
             <Spline scene="https://prod.spline.design/RzugIYe-JLCDkEXJ/scene.splinecode"/>
           </div>
 
