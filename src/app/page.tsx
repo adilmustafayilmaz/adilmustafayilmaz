@@ -21,7 +21,7 @@ export default function Home() {
 
 
         <div className='bg-[#686D76] w-full h-10 flex justify-center items-center rounded-full shadow-md'>
-          Hello, I'm an indie app developer based in Türkiye!
+          Hello, I am an indie app developer based in Türkiye!
         </div>
 
         <h1 className='font-semibold text-[36px] flex justify-start w-full mt-10'>
