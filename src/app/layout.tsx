@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Exo_2 } from 'next/font/google'
 import './globals.css'
+import Header from '../../components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Exo_2({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ADİL MUSTAFA YILMAZ',
+  title: 'Adil Mustafa Yılmaz',
   icons: {
-    icon: "./heart-solid.svg"
+    icon: "./terminal-solid.svg"
   }
 }
 
@@ -17,8 +18,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='bg-[#52575D] text-[#CABFAB]'>
+      <body className={`${inter.className} flex justify-center items-center flex-col`} >
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }

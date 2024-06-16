@@ -5,8 +5,8 @@ import Typewriter from 'typewriter-effect'
 export default function Home() {
   return (
     <>
-      <div className='h-screen flex flex-col justify-center items-center'>
-        <Typewriter
+      <div className='w-[500px] mt-10 flex flex-col justify-center items-center'>
+        {/* <Typewriter
           options={{
             strings: "Adil Mustafa Yılmaz",
             autoStart: true,
@@ -17,7 +17,18 @@ export default function Home() {
             strings: "Coming Soon ....",
             autoStart: true,
             loop: false
-          }}/>
+          }}/> */}
+
+
+        <div className='bg-[#686D76] w-full h-10 flex justify-center items-center rounded-full shadow-md'>
+          Hello, I'm an indie app developer based in Türkiye!
+        </div>
+
+        <h1 className='font-semibold text-[36px] flex justify-start w-full mt-10'>
+          Adil Mustafa Yılmaz
+        </h1>
+        <p className='w-full flex justify-start items-center'>Software Developer ( Developer / Designer )</p>
+         
 
 
       </div>
