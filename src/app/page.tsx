@@ -1,6 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
+import Spline from '@splinetool/react-spline'
 
 
 export default function Home() {
@@ -19,6 +20,10 @@ export default function Home() {
             autoStart: true,
             loop: false
           }}/> */}
+
+          <div className='h-full w-full m-4 rounded-full'>
+            <Spline scene="https://prod.spline.design/RzugIYe-JLCDkEXJ/scene.splinecode"/>
+          </div>
 
         <div className='bg-[#686D76] w-full h-10 flex justify-center items-center rounded-full shadow-md'>
           Hello, I am an indie app developer based in Türkiye!
